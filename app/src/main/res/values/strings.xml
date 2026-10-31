@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Bili 时钟</string>
+    <string name="settings_title">设置</string>
+    <string name="settings_eyebrow">BILICLOCK · DESK CLOCK</string>
+    <string name="settings_heading">桌面时钟</string>
+    <string name="settings_subheading">头像、粉丝数与天气都可以按你的喜好配置。</string>
+
+    <string name="section_bilibili">哔哩哔哩</string>
+    <string name="section_weather">天气</string>
+    <string name="section_display">显示</string>
+    <string name="section_background">背景</string>
+    <string name="section_about">关于</string>
+
+    <string name="uid_label">用户 UID</string>
+    <string name="uid_hint">例如 2</string>
+    <string name="uid_help">头像和主数字来自该用户的 B 站公开资料，数字为粉丝数。</string>
+    <string name="subtitle_label">数字下方副标题</string>
+    <string name="subtitle_help">默认显示总获赞数，与参考界面一致。</string>
+    <string name="cookie_label">Cookie（可选）</string>
+    <string name="cookie_hint">SESSDATA=…，仅在接口限流时填写</string>
+    <string name="cookie_help">留空即可。Cookie 只保存在本机，不会上传到其他服务器。</string>
+    <string name="advanced_bili">高级选项</string>
+
+    <string name="city_label">城市</string>
+    <string name="city_hint">中山</string>
+    <string name="search_city">搜索城市</string>
+    <string name="city_help">搜索后会自动填写经纬度；也可以直接手动修改坐标。</string>
+    <string name="latitude_label">纬度</string>
+    <string name="longitude_label">经度</string>
+    <string name="provider_label">天气服务器</string>
+    <string name="provider_openmeteo">Open-Meteo（免密钥）</string>
+    <string name="provider_qweather">和风天气 / 兼容 API</string>
+    <string name="provider_custom">自定义 JSON 接口</string>
+    <string name="openmeteo_server_label">Open-Meteo 地址</string>
+    <string name="openmeteo_server_hint">https://api.open-meteo.com</string>
+    <string name="qweather_host_label">和风天气 API Host</string>
+    <string name="qweather_host_hint">https://devapi.qweather.com</string>
+    <string name="qweather_key_label">和风天气 API Key</string>
+    <string name="qweather_key_hint">填写你的 Key</string>
+    <string name="qweather_help">使用 /v7/weather/now 接口，按经纬度查询；天气文字、温度、湿度均取自 now 字段。可填写自建代理地址。</string>
+    <string name="custom_url_label">请求地址模板</string>
+    <string name="custom_url_hint">https://example.com/weather?lat={lat}&amp;lon={lon}&amp;city={city}&amp;key={key}</string>
+    <string name="custom_key_label">自定义 API Key（可选）</string>
+    <string name="custom_key_hint">会放入 X-API-Key 请求头</string>
+    <string name="custom_paths_label">JSON 字段路径（可选）</string>
+    <string name="custom_temp_hint">温度，如 data.temp</string>
+    <string name="custom_text_hint">天气，如 data.text</string>
+    <string name="custom_humidity_hint">湿度，如 data.humidity</string>
+    <string name="custom_icon_hint">图标，如 data.icon</string>
+    <string name="custom_help">URL 模板支持 {lat}、{lon}、{city}、{key} 占位符。字段路径使用点号分隔；留空时自动识别 temp/temperature、text/condition、humidity/rh。图标可填 sunny、partly、cloudy、drizzle、rain、thunder、snow、fog，留空则按天气文字判断。</string>
+    <string name="refresh_label">刷新间隔</string>
+    <string name="refresh_help">网络异常时会保留上一次成功获取的数据。</string>
+
+    <string name="keep_on_label">常亮显示</string>
+    <string name="keep_on_help">屏幕保持点亮，适合当作桌面时钟。</string>
+    <string name="second_label">显示秒针</string>
+    <string name="second_help">关闭后表盘只显示时针和分针。</string>
+    <string name="background_label">背景模式</string>
+    <string name="background_black">纯黑</string>
+    <string name="background_image">自定义图片</string>
+    <string name="background_help">纯黑适合 OLED 屏幕；自定义图片会居中裁切，并加一层暗色遮罩保证文字可读。图片只保存在本机。</string>
+    <string name="background_pick">选择图片</string>
+    <string name="background_none">未选择图片</string>
+    <string name="background_saved">已保存自定义图片</string>
+    <string name="background_saved_off">已保存图片（当前使用纯黑）</string>
+    <string name="background_pending">已选择新图片，保存后生效</string>
+    <string name="background_processing">正在处理图片…</string>
+    <string name="background_failed">图片读取失败，请换一张试试</string>
+    <string name="background_required">请先选择一张背景图片</string>
+    <string name="background_imported">图片已选择，保存后生效</string>
+    <string name="entry_help">在时钟界面轻点头像，或长按任意位置，都可以回到这里。</string>
+
+    <string name="save">保存并应用</string>
+    <string name="reset">恢复默认</string>
+    <string name="back">返回</string>
+    <string name="about_text">一款非官方的 B 站桌面时钟。头像、粉丝数和获赞数来自哔哩哔哩公开接口；天气来自 Open-Meteo、和风天气或你配置的接口。所有设置只保存在本机，仅作个人展示使用。字体：Helvetica Neue LT（项目方提供），中文使用系统 Noto Sans CJK 回退；天气图标：Meteocons by Bas Milius（MIT）。</string>
+    <string name="version_fmt">版本 %1$s</string>
+
+    <string name="toast_uid_invalid">UID 只能填写数字</string>
+    <string name="toast_city_empty">请填写城市名称</string>
+    <string name="toast_coords_invalid">请填写有效的经纬度，例如 22.517 / 113.392</string>
+    <string name="toast_server_empty">请填写天气服务器地址</string>
+    <string name="toast_url_invalid">天气服务器地址需要以 http:// 或 https:// 开头</string>
+    <string name="toast_qweather_key">使用和风天气时请填写 API Key</string>
+    <string name="toast_custom_url">使用自定义接口时请填写请求地址</string>
+    <string name="toast_saved">设置已保存</string>
+    <string name="toast_reset_done">已恢复默认设置</string>
+    <string name="toast_searching">正在搜索城市…</string>
+    <string name="toast_search_empty">没有找到这个城市，请换个名称或手动填写坐标</string>
+    <string name="toast_search_failed">城市搜索失败，请检查网络后重试</string>
+    <string name="toast_settings_hint">轻点头像或长按屏幕，进入设置</string>
+    <string name="toast_bili_failed">B 站资料获取失败，已显示缓存数据</string>
+    <string name="toast_weather_failed">天气获取失败，已显示缓存数据</string>
+    <string name="toast_network_offline">当前没有网络，已显示缓存数据</string>
+
+    <string name="dialog_reset_title">恢复默认设置？</string>
+    <string name="dialog_reset_message">UID、城市、天气服务器等设置会恢复为初始值，本机缓存的数据也会清除。</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_ok">恢复</string>
+    <string name="dialog_city_title">选择城市</string>
+    <string name="dialog_about_title">关于 Bili 时钟</string>
+    <string name="dialog_close">关闭</string>
+
+    <string name="search_status_format">已选择：%1$s · 纬度 %2$.3f · 经度 %3$.3f</string>
+    <string name="search_result_format">%1$s\n%2$s</string>
+    <string name="loading">加载中…</string>
+    <string name="unknown">未知</string>
+    <string name="weather_loading_fmt">%1$s · 天气获取中</string>
+    <string name="weather_placeholder">--°C</string>
+    <string name="fan_placeholder">—</string>
+    <string name="likes_fmt">获赞 %1$s</string>
+    <string name="fans_fmt">粉丝 %1$s</string>
+    <string name="not_configured">点击头像设置 UID</string>
+    <string name="avatar_desc">B 站用户头像，点击打开设置</string>
+    <string name="clock_desc">模拟时钟</string>
+
+    <string name="provider_openmeteo_short">Open-Meteo</string>
+    <string name="provider_qweather_short">和风天气</string>
+    <string name="provider_custom_short">自定义 JSON</string>
+
+    <string name="cookie_optional">可选</string>
+    <string name="settings_saved_hint">保存后自动刷新</string>
+    <string name="bili_preview_fmt">@%1$s · 粉丝 %2$s</string>
+    <string name="bili_preview_failed">暂时无法获取，请检查 UID 或网络</string>
+
+    <string name="unit_temperature">°C</string>
+    <string name="weather_format">%1$d°C %2$s · %3$s 湿度 %4$d%%</string>
+    <string name="weather_no_humidity_format">%1$d°C %2$s · %3$s</string>
+    <string name="weather_unknown_condition">天气</string>
+    <string name="weather_city_unknown">本地</string>
+</resources>

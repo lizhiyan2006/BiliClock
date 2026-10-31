@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Meteocons "cloud" silhouette, redrawn with plain cubic Béziers so every
+  Android VectorDrawable parser (API 21+) accepts the path. The previous
+  version used packed SVG arc flags which some devices failed to parse at
+  runtime, leaving every cloud-based weather icon blank.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path
+        android:fillColor="#F4F8FE"
+        android:pathData="M18.5,46 C11.6,46 6,40.4 6,33.5 C6,27.3 10.5,22.2 16.6,21.1 C18.9,14.6 25.1,10 32.2,10 C39.9,10 46.4,15.3 48.1,22.4 C54.4,23 59,28.4 59,34.5 C59,40.8 54,46 48,46 Z"
+        android:strokeColor="#E4EEFB"
+        android:strokeWidth="0.4"
+        android:strokeLineJoin="round" />
+</vector>

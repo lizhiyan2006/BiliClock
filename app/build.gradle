@@ -1,0 +1,41 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.biliclock.deskclock'
+    compileSdk 35
+    buildToolsVersion "35.0.0"
+
+    defaultConfig {
+        applicationId "com.biliclock.deskclock"
+        minSdk 23
+        targetSdk 34
+        versionCode 5
+        versionName "1.3.1"
+        resConfigs "zh", "en"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            shrinkResources false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    lint {
+        abortOnError false
+    }
+
+    androidResources {
+        // Keep the bundled font byte-for-byte available to AssetManager.
+        noCompress 'ttf'
+    }
+}
+

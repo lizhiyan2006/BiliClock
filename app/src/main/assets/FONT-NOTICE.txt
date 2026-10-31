@@ -1,0 +1,20 @@
+Helvetica Neue LT 55 Roman
+==========================
+
+File bundled:
+- Helvetica-Regular.ttf
+
+This font file was supplied by the project owner for this personal app.
+Helvetica is a trademark of Monotype; make sure you have the appropriate
+redistribution rights before shipping this APK publicly.
+
+Chinese characters are not present in this font, so Android falls back to the
+system CJK font (Noto Sans CJK on Android 6+). Latin letters and digits use
+Helvetica Neue, giving the clock a thinner Helvetica look.
+
+Meteocons
+=========
+
+Weather icon geometry is based on Meteocons by Bas Milius (MIT License).
+The full license text is in METEOCONS-LICENSE.txt in this directory.
+Source: https://github.com/basmilius/weather-icons

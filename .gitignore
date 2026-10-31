@@ -1,0 +1,29 @@
+# Android / Gradle
+.gradle/
+build/
+app/build/
+local.properties
+*.iml
+.idea/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Release artifacts are uploaded to GitHub Releases, not committed.
+dist/*.apk
+dist/*.zip
+*.apk
+*.aab
+*.idsig
+
+# Signing material
+keystore/
+*.jks
+*.keystore
+
+# Local toolchains
+.toolchain/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Crescent moon drawn with cubic Béziers. The original Meteocons path used
+  packed SVG arc flags ("01", "10") which some Android VectorDrawable parsers
+  reject, leaving the clear-night icon invisible.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path
+        android:fillColor="#86C3DB"
+        android:pathData="M45,12 C30,14 20,27 24,41 C27,52 38,58 50,55 C41,51 35,42 35,32 C35,23 38,16 45,12 Z"
+        android:strokeColor="#72B9D5"
+        android:strokeWidth="0.5"
+        android:strokeLineJoin="round" />
+</vector>

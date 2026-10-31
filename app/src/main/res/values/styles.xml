@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.BiliClock" parent="@android:style/Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/bg</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:statusBarColor">@color/bg</item>
+        <item name="android:navigationBarColor">@color/bg</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowActionModeOverlay">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:fontFamily">sans-serif</item>
+    </style>
+
+    <style name="Theme.BiliClock.Fullscreen" parent="Theme.BiliClock">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <!-- Keep system picker/confirmation dialogs on the same dark surface as
+         the settings screen instead of the default grey Material dialog. -->
+    <style name="Theme.BiliClock.Dialog" parent="@android:style/Theme.Material.Dialog.Alert">
+        <item name="android:windowBackground">@color/bg_elevated</item>
+        <item name="android:colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:backgroundDimAmount">0.65</item>
+    </style>
+
+    <style name="Text.Section" parent="">
+        <item name="android:textColor">@color/accent_dim</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.12</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginTop">28dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+
+    <style name="Text.Label" parent="">
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">7dp</item>
+    </style>
+
+    <style name="Text.Help" parent="">
+        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineSpacingExtra">3dp</item>
+        <item name="android:layout_marginTop">7dp</item>
+    </style>
+
+    <style name="Widget.Edit" parent="">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textColorHint">@color/text_tertiary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingLeft">14dp</item>
+        <item name="android:paddingRight">14dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="Widget.Button.Primary" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">@drawable/bg_button_primary</item>
+        <item name="android:textColor">#0B0D10</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:minHeight">52dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="Widget.Button.Ghost" parent="@android:style/Widget.Material.Button">
+        <item name="android:background">@drawable/bg_button_ghost</item>
+        <item name="android:textColor">@color/text_secondary</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:minHeight">50dp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="Widget.Spinner" parent="">
+        <item name="android:background">@drawable/bg_input</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:minHeight">48dp</item>
+        <item name="android:popupBackground">@color/bg_elevated</item>
+        <item name="android:spinnerMode">dropdown</item>
+    </style>
+
+    <style name="Widget.Switch" parent="">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <style name="Text.CardTitle" parent="">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">17sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="Text.CardSub" parent="">
+        <item name="android:textColor">@color/text_tertiary</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+</resources>
+

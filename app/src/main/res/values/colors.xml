@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg">#0B0D10</color>
+    <color name="bg_elevated">#12151A</color>
+    <color name="card">#15191E</color>
+    <color name="card_stroke">#242A31</color>
+    <color name="clock_text">#D9EFEE</color>
+    <color name="clock_sub">#9AA6AA</color>
+    <color name="clock_weather">#E4F2F0</color>
+    <color name="accent">#D9EFEE</color>
+    <color name="accent_dim">#8DB8B5</color>
+    <color name="text_primary">#F0F7F6</color>
+    <color name="text_secondary">#A5B0B4</color>
+    <color name="text_tertiary">#6E797E</color>
+    <color name="danger">#FF6B6B</color>
+    <color name="divider">#232930</color>
+    <color name="input_bg">#0E1116</color>
+    <color name="input_stroke">#2A3139</color>
+    <color name="white_08">#14FFFFFF</color>
+    <color name="white_12">#1FFFFFFF</color>
+</resources>
